@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ns_face_finder01", "..\..\..\ns_face_finder01\make\VC2010\ns_face_finder01\ns_face_finder01.vcxproj", "{3487707E-7245-40CF-A1A4-CFA4268EFFB9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ns_face_finder_test", "..\..\..\ns_face_finder_test\ns_face_finder_test.vcxproj", "{6C3609D9-6D38-47EE-AB20-B90995CCBFA4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ns_face_finder_evaluation", "..\..\..\ns_face_finder_evaluation\ns_face_finder_evaluation.vcxproj", "{13C41F8D-0F15-45FF-BDC8-D9BEFDD0EDC6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3487707E-7245-40CF-A1A4-CFA4268EFFB9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3487707E-7245-40CF-A1A4-CFA4268EFFB9}.Debug|Win32.Build.0 = Debug|Win32
+		{3487707E-7245-40CF-A1A4-CFA4268EFFB9}.Release|Win32.ActiveCfg = Release|Win32
+		{3487707E-7245-40CF-A1A4-CFA4268EFFB9}.Release|Win32.Build.0 = Release|Win32
+		{6C3609D9-6D38-47EE-AB20-B90995CCBFA4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6C3609D9-6D38-47EE-AB20-B90995CCBFA4}.Debug|Win32.Build.0 = Debug|Win32
+		{6C3609D9-6D38-47EE-AB20-B90995CCBFA4}.Release|Win32.ActiveCfg = Release|Win32
+		{6C3609D9-6D38-47EE-AB20-B90995CCBFA4}.Release|Win32.Build.0 = Release|Win32
+		{13C41F8D-0F15-45FF-BDC8-D9BEFDD0EDC6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{13C41F8D-0F15-45FF-BDC8-D9BEFDD0EDC6}.Debug|Win32.Build.0 = Debug|Win32
+		{13C41F8D-0F15-45FF-BDC8-D9BEFDD0EDC6}.Release|Win32.ActiveCfg = Release|Win32
+		{13C41F8D-0F15-45FF-BDC8-D9BEFDD0EDC6}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

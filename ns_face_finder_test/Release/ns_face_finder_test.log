@@ -1,0 +1,35 @@
+﻿生成启动时间为 2015/6/1 19:26:42。
+     1>项目“D:\svn\Algorithm\wuxiang\Code\C\face_detection\NS_Face\ns_face_finder_test\ns_face_finder_test.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\ns_face_finder_test.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>main.cpp(64): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>main.cpp(95): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>main.cpp(115): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : 参见“fscanf”的声明
+     1>main.cpp(116): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>main.cpp(148): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>main.cpp(149): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\svn\Algorithm\wuxiang\Code\C\face_detection\NS_Face\make\VC2010\NS_Face\Release\ns_face_finder_test.exe" /INCREMENTAL:NO /NOLOGO cnnAPI_Release.lib libopenblas.lib ns_image.lib ns_face_finder01.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\ns_face_finder_test.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\svn\Algorithm\wuxiang\Code\C\face_detection\NS_Face\make\VC2010\NS_Face\Release\ns_face_finder_test.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\svn\Algorithm\wuxiang\Code\C\face_detection\NS_Face\make\VC2010\NS_Face\Release\ns_face_finder_test.lib" /MACHINE:X86 Release\main.obj
+         正在生成代码
+         已完成代码的生成
+     1>ns_face_finder01.lib(cnn.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ns_face_finder01.lib(cnn.obj)”或在“D:\svn\Algorithm\wuxiang\Code\C\face_detection\NS_Face\make\VC2010\NS_Face\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         ns_face_finder_test.vcxproj -> D:\svn\Algorithm\wuxiang\Code\C\face_detection\NS_Face\make\VC2010\NS_Face\Release\ns_face_finder_test.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\svn\Algorithm\wuxiang\Code\C\face_detection\NS_Face\make\VC2010\NS_Face\Release\ns_face_finder_test.exe;#1" /manifest Release\ns_face_finder_test.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\ns_face_finder_test.unsuccessfulbuild”。
+         正在对“Release\ns_face_finder_test.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\svn\Algorithm\wuxiang\Code\C\face_detection\NS_Face\ns_face_finder_test\ns_face_finder_test.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.86

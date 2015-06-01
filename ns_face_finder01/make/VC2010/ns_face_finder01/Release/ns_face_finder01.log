@@ -1,0 +1,45 @@
+﻿生成启动时间为 2015/6/1 19:26:40。
+     1>项目“D:\svn\Algorithm\wuxiang\Code\C\face_detection\NS_Face\ns_face_finder01\make\VC2010\ns_face_finder01\ns_face_finder01.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\ns_face_finder01.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../../inc /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\src\ns_face_finder01.cpp
+         ns_face_finder01.cpp
+     1>D:\svn\Algorithm\wuxiang\Code\C\face_detection\NS_Face\lib\cnnAPI_lib\cnn.h(167): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\..\..\src\ns_face_finder01.cpp(72): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>..\..\..\src\ns_face_finder01.cpp(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>..\..\..\src\ns_face_finder01.cpp(91): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>..\..\..\src\ns_face_finder01.cpp(93): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>..\..\..\src\ns_face_finder01.cpp(95): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>..\..\..\src\ns_face_finder01.cpp(124): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>..\..\..\src\ns_face_finder01.cpp(175): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\..\..\src\ns_face_finder01.cpp(184): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>..\..\..\src\ns_face_finder01.cpp(190): warning C4305: “参数”: 从“double”到“float”截断
+     1>..\..\..\src\ns_face_finder01.cpp(354): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\..\..\src\ns_face_finder01.cpp(421): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\..\..\src\ns_face_finder01.cpp(493): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>..\..\..\src\ns_face_finder01.cpp(494): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>..\..\..\src\ns_face_finder01.cpp(496): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>..\..\..\src\ns_face_finder01.cpp(497): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>..\..\..\src\ns_face_finder01.cpp(498): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>..\..\..\src\ns_face_finder01.cpp(499): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>..\..\..\src\ns_face_finder01.cpp(585): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>..\..\..\src\ns_face_finder01.cpp(614): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(D:\svn\Algorithm\wuxiang\Code\C\face_detection\NS_Face\make\VC2010\NS_Face\Release\ns_face_finder01.lib) 与 Library 的 OutputFile 属性值(D:\svn\Algorithm\wuxiang\Code\C\face_detection\NS_Face\ns_face_finder01\lib\VC2010\Win32\ns_face_finder01.lib)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Lib.OutputFile) 中指定的值匹配。
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"../../../lib/VC2010/Win32/ns_face_finder01.lib" cnnAPI_Release.lib libopenblas.lib /LIBPATH:D:\svn\Algorithm\wuxiang\Code\C\face_detection\NS_Face\lib\cnnAPI_lib /NOLOGO /LTCG Release\ns_face_finder01.obj
+         ns_face_finder01.vcxproj -> D:\svn\Algorithm\wuxiang\Code\C\face_detection\NS_Face\make\VC2010\NS_Face\Release\ns_face_finder01.lib
+       FinalizeBuildStatus:
+         正在删除文件“Release\ns_face_finder01.unsuccessfulbuild”。
+         正在对“Release\ns_face_finder01.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\svn\Algorithm\wuxiang\Code\C\face_detection\NS_Face\ns_face_finder01\make\VC2010\ns_face_finder01\ns_face_finder01.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.69
